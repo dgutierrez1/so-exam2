@@ -1,7 +1,7 @@
 
 PARCIAL 2 -SISTEMAS OPERATIVOS
 
-Repositorio : https://github.com/dgutierrez1/so-exam2 
+Repositorio : https://github.com/dgutierrez1/so-exam2 <br>
 Se tiene un scrip encargado de modelar la base de datos database.py
  <img src="imgs/1.png">
 Este tiene la entidad Check con columnas que corresponden los necesarios (cpu, memoria, disco, y estado del servico httpd). Por un error al momento de almacenar la información en la base de datos, se usó una clase auxiliar en el script coercing.py para que convirtiera los String de formato UTF8  a Unicode. SQLAlchemy sugeria esta conversión para solucionar el problema de formatos de string.
@@ -18,4 +18,4 @@ El api esta estructurada en check_api.py
  <img src="imgs/7.png">
 Se tiene entonces las rutas del api para consultar todos los checks(v1.0/checks) y consultar un lista de solamente el cpu de los checks del tamaño deseado (v1.0/checks/cpu/history?size=0). Se tiene también dos rutas del api para iniciar el proceso de los los checks (v1.0/checks/start) y otro para detener ese mismo proceso  (v1.0/checks/stop), ambas usando el método GET. Iguamente desde el api se puede iniciar (v1.0/checks/start/httpd)  o detener (v1.0/checks/stop/httpd) el servicio de httpd, estas también a través del método GET. 
 Al documentar el api con swagger se obtuve este resultado en el navegador
-
+<img src="imgs/8png">
