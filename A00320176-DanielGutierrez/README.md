@@ -18,4 +18,4 @@ El api esta estructurada en check_api.py
  <img src="imgs/7.png">
 Se tiene entonces las rutas del api para consultar todos los checks(v1.0/checks) y consultar un lista de solamente el cpu de los checks del tamaño deseado (v1.0/checks/cpu/history?size=0). Se tiene también dos rutas del api para iniciar el proceso de los los checks (v1.0/checks/start) y otro para detener ese mismo proceso  (v1.0/checks/stop), ambas usando el método GET. Iguamente desde el api se puede iniciar (v1.0/checks/start/httpd)  o detener (v1.0/checks/stop/httpd) el servicio de httpd, estas también a través del método GET. 
 Al documentar el api con swagger se obtuve este resultado en el navegador
-<img src="imgs/8png">
+<img src="imgs/8.png">
